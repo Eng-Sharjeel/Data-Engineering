@@ -33,14 +33,14 @@ class Netflix_ETL:
         self._logger=logging.getLogger(LOGGER_NAME)
         self.input_file_path=r"E:\Aena Maryam\Work\AI_Datayard\Projects\Netflix_Recommendation_System\Files\netflix_titles.csv"
         self.output_file_path=r"E:\Aena Maryam\Work\AI_Datayard\Projects\Netflix_Recommendation_System\Files\reencoded_netflix_titles.csv"
-        self.db_user='aenamaryam'
-        self.db_password='Snowflake_0299'
-        self.db_account='rx18818.central-india.azure'
-        self.db_warehouse='COMPUTE_WH'
-        self.db_database_name='TRAINING_DB'
-        self.db_schema_name='NETFLIX_SC'
-        self.db_role_name='ACCOUNTADMIN'
-        self.db_table_name='netflix_dataset'
+        self.db_user='YOUR_DB_USERNAME'
+        self.db_password='YOUR_SNOWFLAKE_DB_PASS'
+        self.db_account='YOUR_SNOWFLAKE_DB_ACC'
+        self.db_warehouse='YOUR_SNOWFLAKE_DB_WAREHOUSE'
+        self.db_database_name=YOUR_SNOWFLAKE_DB_NAME'
+        self.db_schema_name='YOUR_SNOWFLAKE_DB_SCHEMA_NAME'
+        self.db_role_name='YOUR_SNOWFLAKE_DB_ROLE'
+        self.db_table_name='YOUR_SNOWFLAKE_DB_TABLE_NAME'
 
     def detect_encoding(self):
         """
