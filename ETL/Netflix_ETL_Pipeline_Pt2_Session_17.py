@@ -31,8 +31,8 @@ class Netflix_ETL:
     def __init__(self):
         """ Initialize attributes like logging and file paths below"""
         self._logger=logging.getLogger(LOGGER_NAME)
-        self.input_file_path=r"D:\data Engineering & Analytics\slides\Python\practice\files\netflix_titles.csv"
-        self.output_file_path=r"D:\data Engineering & Analytics\slides\Python\practice\files\reencoded_netflix_titles.csv"
+        self.input_file_path=r"YOUR_LOCATION_OF_FILE_IN_COMPUTER\netflix_titles.csv"
+        self.output_file_path=r"YOUR_LOCATION_OF_FILE_IN_COMPUTER\reencoded_netflix_titles.csv"
 
     def detect_encoding(self):
         """
