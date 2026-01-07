@@ -37,7 +37,7 @@ class Netflix_ETL:
         self.db_password='YOUR_SNOWFLAKE_DB_PASS'
         self.db_account='YOUR_SNOWFLAKE_DB_ACC'
         self.db_warehouse='YOUR_SNOWFLAKE_DB_WAREHOUSE'
-        self.db_database_name=YOUR_SNOWFLAKE_DB_NAME'
+        self.db_database_name='YOUR_SNOWFLAKE_DB_NAME'
         self.db_schema_name='YOUR_SNOWFLAKE_DB_SCHEMA_NAME'
         self.db_role_name='YOUR_SNOWFLAKE_DB_ROLE'
         self.db_table_name='YOUR_SNOWFLAKE_DB_TABLE_NAME'
