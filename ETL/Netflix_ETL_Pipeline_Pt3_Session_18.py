@@ -164,6 +164,7 @@ class Netflix_ETL:
             self._logger.info(f"All datatypes converted into relevant data-types and format in transform_csv_data():\n\n {df_d.dtypes}\n\n {df_d.head()}\n")
             
             # 11. Replace NaN with None
+            # df_d=df_d.map(lambda x:None if pd.isna(x) else x)
             df_d = df_d.where(pd.notnull(df_d), None)
 
             df_t=df_d
