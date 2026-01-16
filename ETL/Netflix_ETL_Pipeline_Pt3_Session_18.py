@@ -242,6 +242,7 @@ class Netflix_ETL:
             session.write_pandas(
                 df,
                 table_name = self.db_table_name,
+                auto_create_table=True,
                 overwrite = True
             )
 
