@@ -31,10 +31,10 @@ class Netflix_ETL:
     def __init__(self):
         """ Initialize attributes like logging and file paths below"""
         self._logger=logging.getLogger(LOGGER_NAME)
-        self.input_file_path=r"E:\Aena Maryam\Work\AI_Datayard\Projects\Netflix_Recommendation_System\Files\netflix_titles.csv"
-        self.output_file_path=r"E:\Aena Maryam\Work\AI_Datayard\Projects\Netflix_Recommendation_System\Files\reencoded_netflix_titles.csv"
-        self.db_user='aenamaryam'
-        self.db_password='Snowflake_0299'
+        self.input_file_path=r"PATH_LOCATION\File.csv"
+        self.output_file_path=r"PATH_LOCATION\reencoded_File.csv"
+        self.db_user='YOUR_SNOWFLAKE_USERNAME'
+        self.db_password='YOUR_SNOWFLAKE_PASS'
         self.db_account='rx18818.central-india.azure'
         self.db_warehouse='COMPUTE_WH'
         self.db_database_name='TRAINING_DB'
