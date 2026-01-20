@@ -54,11 +54,7 @@ The pipeline is designed to be **scalable, reliable, and production-oriented**.
 - **Programming:** Python
 - **Data Processing:** Pandas
 - **Data Warehouse:** Snowflake
-- **ETL Framework:** Snowpark
 - **Logging:** Python Logging
 - **Version Control:** Git & GitHub
 
----
-
-## 📂 Repository Structure
 
