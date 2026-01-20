@@ -20,8 +20,8 @@ class iss_in_space():
         self
     ):
         self._logger=logging.getLogger(LOGGER_NAME)
-        self.db_user = 'aenamaryam'
-        self.db_password = 'Snowflake_0299'
+        self.db_user = 'YOUR_SNOWFLAKE_USERNAME'
+        self.db_password = 'YOUR_SNOWFLAKE_PASS'
         self.db_account = 'rx18818.central-india.azure'
         self.db_warehouse = 'COMPUTE_WH'
         self.db_database_name = 'TRAINING_DB'
@@ -255,4 +255,5 @@ class iss_in_space():
 
 if __name__=='__main__':
     iss=iss_in_space()
+
     iss.run()
