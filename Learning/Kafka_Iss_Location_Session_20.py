@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import os
 import sys
 import datetime
@@ -116,6 +115,7 @@ class iss_in_space():
 if __name__=='__main__':
     iss=iss_in_space()
     iss.run()
+
 
 =======
 import os
@@ -235,6 +235,4 @@ class iss_in_space():
 if __name__=='__main__':
     iss=iss_in_space()
     iss.run()
-
->>>>>>> 0e0acac (Add MovieLens ELT dbt project with Netflix folder, README, diagram, and setup scripts)
     
