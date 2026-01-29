@@ -40,3 +40,10 @@ pip install dbt-snowflake==1.9.0
 # Initialize dbt (Windows)
 mkdir %userprofile%\.dbt
 dbt init
+
+---
+
+## ⚙️ Complete Instructions
+The complete instructions of the project are in **Movielens.sql** file
+
+---
