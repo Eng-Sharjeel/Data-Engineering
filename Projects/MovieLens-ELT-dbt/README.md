@@ -44,6 +44,6 @@ dbt init
 ---
 
 ## ⚙️ Complete Instructions
-The complete instructions of the project are in the **Movielens.sql** file
+The complete instructions of the project is in the **Movielens.sql** file
 
 ---
