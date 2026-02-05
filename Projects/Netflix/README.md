@@ -7,7 +7,7 @@ An end-to-end **Data Engineering ETL pipeline** designed to ingest, clean, trans
 ## 📊 Architecture Diagram
 
 <p align="center">
-  <img src="ETL.png" alt="Netflix ETL Architecture" width="800">
+  <img src="ETL_arch.png" alt="Netflix ETL Architecture" width="800">
 </p>
 
 ---
